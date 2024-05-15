@@ -16,6 +16,12 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Profile card component</title>
@@ -30,31 +36,48 @@
     </style>
   </head>
   <body>
-    <div class="profile-card">
-      <div class="profile">
-        <div class="profile-blue">
-          <img src="images/bg-pattern-card.svg" alt="pattern-blue-card" />
+    <section class="main">
+      <div class="profile-card">
+        <div class="profile">
+          <div class="profile-blue">
+            <img
+              src="images/bg-pattern-card.svg"
+              alt="pattern-blue-card"
+              id="patternblue"
+            />
+          </div>
+          <div class="profile-white">
+            <div class="victor">
+              <img
+                src="images/image-victor.jpg"
+                alt="profile_photo"
+                id="image-victor"
+              />
+            </div>
+            <div class="profile-info">
+              <p><span id="name-card">Victor Crest</span> 26</p>
+              <p>London</p>
+            </div>
+          </div>
         </div>
-        <div class="victor">
-          <img src="images/image-victor.jpg" alt="profile_photo" />
-        </div>
-        <div class="profile-white">
-          <div class="profile-info">
-            <h1><strong class="name_card">Victor Crest</strong> 26</h1>
-            <p>London</p>
+
+        <div class="flex-statistics">
+          <div class="flex-box">
+            <p class="flex-number">80K</p>
+
+            <p class="flex-category">Followers</p>
+          </div>
+          <div class="flex-box">
+            <p class="flex-number">803K</p>
+            <p class="flex-category">Likes</p>
+          </div>
+          <div class="flex-box">
+            <p class="flex-number">1.4K</p>
+            <p class="flex-category">Photos</p>
           </div>
         </div>
       </div>
-
-      <div class="flex-statistics">
-        <div class="flex-number">80K</div>
-        <div class="flex-category">Followers</div>
-        <div class="flex-number">803K</div>
-        <div class="flex-category">Likes</div>
-        <div class="flex-number">1.4K</div>
-        <div class="flex-category">Photos</div>
-      </div>
-    </div>
+    </section>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
