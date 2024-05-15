@@ -1,0 +1,39 @@
+body{ 
+    font-size: 18px;
+    color: hsl(0, 0%, 59%);
+    background-color: hsl(185, 75%, 39%)
+}
+
+p{
+    font-size: 16px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 18px;
+}
+.profile-card{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 5%;  
+}
+
+.profile-blue{
+    width: 100%;
+    margin: auto;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+.victor{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+}
